@@ -4,7 +4,7 @@
         Dim ulNumber As ULong
         Console.WriteLine("Input an integer positive number")
         ULong.TryParse(Console.ReadLine(), ulNumber)
-        Console.WriteLine($"The number {ulNumber} has the folowing dividers:")
+        Console.WriteLine($"The number {ulNumber} has the folowing divisors:")
         Dim nDividers = 0
         For i As ULong = 1 To ulNumber
             If (ulNumber Mod i = 0) Then
